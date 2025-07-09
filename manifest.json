@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Neofoxify",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Add Neofox everywhere you go :neofox_floof:",
     "permissions": ["activeTab"],
     "icons": {

@@ -1,8 +1,14 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "Neofoxify",
-    "version": "1.2",
+    "version": "1.0",
+    "description": "Add Neofox everywhere you go :neofox_floof:",
     "permissions": ["activeTab"],
+    "icons": {
+        "16": "NeoFoxBoxSmolRead.png",
+        "48": "NeoFoxBoxSmolRead.png",
+        "128": "NeoFoxBoxSmolRead.png"
+    },
     "content_scripts": [
         {
             "matches": ["https://*/*"],
@@ -10,12 +16,9 @@
             "css": ["neofox.css"]
         }
     ],
-    "action": {
+    "browser_action": {
         "default_popup": "popup.html",
-        "default_icon": {
-            "16": "NeoFoxBoxSmolRead.png",
-            "48": "NeoFoxBoxSmolRead.png",
-            "128": "NeoFoxBoxSmolRead.png"
-        }
-    }    
+        "default_icon": "NeoFoxBoxSmolRead.png"
+    },
+    "homepage_url": "https://skydevs.me/browserextensions/firefox"
 }

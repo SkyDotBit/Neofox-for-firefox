@@ -1,4 +1,4 @@
-# Neofox for chromium (Neofoxify)
+# Neofox for Firefox (Neofoxify)
 :neofox_floof:
 Replaces all Neofox names like ":neofox_floof:" with actual Neofoxes :neofox:
 Only works on sites not listed in the [blacklist](https://skydevs.me/assets/neofox/blacklist.txt).

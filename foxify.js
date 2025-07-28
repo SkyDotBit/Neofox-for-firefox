@@ -3,7 +3,7 @@ const funnyfoxxos = neofoxos.map(name => name.replace(/[.*+?^${}()|[\]\\]/g, '\\
 const pattern = ":(" + funnyfoxxos.join("|") + "):";
 const regex = new RegExp(pattern, "g");
 let enabled = true;
-let blockedgoobs = "doob.doob";
+let blockedgoobs = "";
 async function bigfetchonce(){
     const respon = await fetch("https://skydevs.me/assets/neofox/blacklist.txt");
     blockedgoobs = await respon.text();
